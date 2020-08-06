@@ -1,0 +1,23 @@
+Package: fileR
+Title: Utility Functions for Working with Windows Files
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cesaire",
+           family = "Tobias",
+           role = c("aut", "cre"),
+           email = "cesairetobias@hotmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: General purpose functions for manipulating files on Windows OS.
+Depends:
+    R (>= 4.0.0),
+    magrittr
+Imports:
+    assertR,
+    glue
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat

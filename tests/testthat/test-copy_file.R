@@ -4,8 +4,8 @@ test_that("files copy correctly", {
   # pkg_name = pkg_desc$get_field("Package")
 
   test_file <- "copy_test_file.csv"
-  src_dir <- system.file("extdata", ".", package = "fileR")
-  dest_dir <- system.file("testdata", ".", package = "fileR")
+  src_dir <- system.file("extdata", package = "fileR")
+  dest_dir <- system.file("testdata", package = "fileR")
 
   src <- paste(src_dir, test_file, sep = "/")
 

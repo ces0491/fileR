@@ -43,7 +43,7 @@ copy_file <- function(source_file, dest_dir, overwrite, timestamp) {
 #'
 copy_files <- function(source_files, dest_dir, overwrite = FALSE, timestamp = FALSE) {
 
-  assertR::assert_present(names(source_files), c("file_path", "file_name"), "logic error")
+  assertR::assert_present(names(source_files), c("file_path", "file_name"))
 
   for(n in 1:nrow(source_files)) {
 

@@ -9,11 +9,11 @@ Authors@R:
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: General purpose functions for manipulating files on Windows OS.
 Depends:
-    R (>= 4.0.0),
-    magrittr
+    R (>= 4.0.0)
 Imports:
     assertR,
-    glue
+    glue,
+    stringr
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
